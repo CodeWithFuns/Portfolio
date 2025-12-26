@@ -7,6 +7,9 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import AwardsAchievements from './components/AwardsAchievements';
+
+
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -58,6 +61,10 @@ function App() {
         <section id="projects" className="mt-20">
           <Projects />
         </section>
+        <section id="awards" className="mt-20">
+            <AwardsAchievements />
+          </section>
+
         <section id="contact" className="mt-20">
           <Contacts />
         </section>

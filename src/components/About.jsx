@@ -21,7 +21,7 @@ const About = () => {
 
       <div className="mb-8 text-left">
         <p><span className="font-semibold">📍 Location:</span> Birgunj, Nepal</p>
-        <p><span className="font-semibold">📧 Email:</span> aslam.ansari.ku@gmail.com</p>
+        <p><span className="font-semibold">📧 Email:</span> aslamworlds@gmail.com</p>
       </div>
 
       <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-4">Qualification</h3>

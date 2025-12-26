@@ -8,6 +8,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { label: 'Skills', href: '#skills' },
     { label: 'Experience', href: '#experience' },
     { label: 'Projects', href: '#projects' },
+    { label: 'Awards & Achievements', href: '#awards' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -37,18 +38,19 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <h1 className="text-xl font-bold">Aslam Ansari</h1>
           <p className="text-sm text-gray-400">Khulna University</p>
         </div>
-        <nav className="flex flex-col gap-6 text-lg font-medium">
-          {navItems.map(item => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="hover:text-blue-400 hover:scale-105 transition-all duration-300 transform"
-              onClick={toggleSidebar} // close sidebar on nav click (mobile)
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
+        <nav className="flex flex-col gap-6 text-lg font-medium items-center text-center">
+        {navItems.map(item => (
+         <a
+          key={item.href}
+          href={item.href}
+          className="text-center w-full hover:text-blue-400 hover:scale-105 transition-all duration-300 transform"
+          onClick={toggleSidebar}
+        >
+      {item.label}
+    </a>
+  ))}
+</nav>
+
       </aside>
     </>
   );

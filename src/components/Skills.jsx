@@ -2,8 +2,8 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    "HTML", "CSS", "JavaScript", "Tailwind CSS", "REACT", "FIGMA",
-    "SQL", "Desktop Development", "Web Development", "Chatbot"
+    "MERN Stack Developer", "HTML", "CSS", "JavaScript", "Tailwind CSS", "REACT", "FIGMA",
+    "SQL", "Desktop Development", "Chatbot","C/C++", "Python", "AI-based Tools", "JAVA", "Git & GitHub", "DBMS"
   ];
 
   return (
